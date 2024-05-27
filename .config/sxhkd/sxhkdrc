@@ -1,0 +1,136 @@
+#   ______  ___   _ _  ______  ____   ____
+#  / ___\ \/ / | | | |/ /  _ \|  _ \ / ___|
+#  \___ \\  /| |_| | ' /| | | | |_) | |
+#   ___) /  \|  _  | . \| |_| |  _ <| |___
+#  |____/_/\_\_| |_|_|\_\____/|_| \_\\____|
+
+# Terminal
+super + Return
+  alacritty
+
+
+# Reload sxhkd
+super + Escape
+  pkill -USR1 -x sxhkd
+
+
+# Lockscreen
+super + shift + q
+  betterlockscreen -l dimblur
+
+
+# Theme Swap
+super + r
+  bash ~/.config/bspwm/set-Theme.sh
+
+
+# Set Fav Themes
+super + shift + j
+  feh --bg-fill ~/.config/hypr/Wallpapers/13.jpg && bash ~/.config/polybar/scripts/pywal.sh ~/.config/hypr/Wallpapers/13.jpg
+
+super + shift + k
+  feh --bg-fill ~/.config/hypr/Wallpapers/26.jpg && bash ~/.config/polybar/scripts/pywal.sh ~/.config/hypr/Wallpapers/26.jpg
+
+super + shift + h
+  feh --bg-fill ~/.config/hypr/Wallpapers/40.jpg && bash ~/.config/polybar/scripts/pywal.sh ~/.config/hypr/Wallpapers/40.jpg
+ 
+super + shift + l
+  feh --bg-fill ~/.config/hypr/Wallpapers/9.jpg && bash ~/.config/polybar/scripts/pywal.sh ~/.config/hypr/Wallpapers/9.jpg
+
+super + shift + i
+  feh --bg-fill ~/.config/hypr/Wallpapers/57.png && bash ~/.config/polybar/scripts/pywal.sh ~/.config/hypr/Wallpapers/57.png
+
+super + shift + o
+  feh --bg-fill ~/.config/hypr/Wallpapers/49.jpg && bash ~/.config/polybar/scripts/pywal.sh ~/.config/hypr/Wallpapers/49.jpg
+
+super + shift + u
+  feh --bg-fill ~/.config/hypr/Wallpapers/59.png && bash ~/.config/polybar/scripts/pywal.sh ~/.config/hypr/Wallpapers/59.png
+
+super + shift + y
+  feh --bg-fill ~/.config/hypr/Wallpapers/'Alex Terrible'.jpg && bash ~/.config/polybar/scripts/pywal.sh ~/.config/hypr/Wallpapers/'Alex Terrible'.jpg
+
+# Rofi
+super + @space
+  bash ~/.config/polybar/scripts/launcher.sh
+  # rofi -show drun
+
+super + shift + @space
+  rofi -show window
+
+super + shift + p
+  bash ~/.config/polybar/scripts/powermenu.sh
+
+
+# Switch between tiled and monocle layout
+super + m
+  bspc desktop -l next
+
+
+# Desktop Switching
+super + {1-9}
+  bspc desktop -f {1-9}
+
+
+# Send window to desktop and swap
+super + shift + {1-9}
+  bspc node -d {1-9} && bspc desktop -f {1-9}
+
+
+# Window Navigation
+super + {h,j,k,l}
+	bspc node -f {west,south,north,east}
+
+alt + Tab
+  bspc node -f last.local
+
+
+# Kills current window
+super + x
+  bspc node -c
+
+
+# Swaps between floating and tiled
+alt + f
+  bspc node -t "~"{floating,tiled}
+
+
+# swap the current node and the biggest node
+super + g
+  bspc node -s biggest.window
+
+
+# expand a window by moving one of its side outward
+super + alt + {h,j,k,l}
+	bspc node -z {left -20 0,bottom 0 20,top 0 -20,right 20 0}
+
+# contract a window by moving one of its side inward
+super + alt + shift + {h,j,k,l}
+	bspc node -z {right -20 0,top 0 20,bottom 0 -20,left 20 0}
+
+# move a floating window
+super + shift + {Left,Down,Up,Right}
+	bspc node -v {-20 0,0 20,0 -20,20 0}
+
+
+# Volume control
+XF86AudioRaiseVolume
+  amixer set Master 5%+
+XF86AudioLowerVolume
+  amixer set Master 5%-
+XF86AudioMute
+  amizer set Master {mute, unmute}
+
+
+# Screenshot
+@Print
+  scrot -s --line mode=edge ~/Pictures/Screenshots/%Y-%m-%d_%H%M%S-$wx$h_scrot.png
+
+# Fullscreen Screenshot
+ctrl + @Print
+	scrot -d1 && mv *.png ~/Pictures/Screenshots/
+
+
+# Brightness
+#XF86MonBrightness{up,down}
+super + b + {u,d}
+  brightnessctl set 2000{+,-}
