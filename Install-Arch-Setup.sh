@@ -20,7 +20,7 @@ pacman -S wireshark-cli okteta dhex nmap john &
 # Fonts
 pacman -S noto-fonts noto-fonts-cjk noto-fonts-emoji ttf-fira-code texlive-langkorean ttf-fantasque-nerd ttf-font-awesome &
 
-bash Dotfiles-Install.sh
+git clone https://github.com/shadow64321/Dotfiles.git ~/.config
 
 # Failed Fonts: hachimarupop, terminus-nerdfont, siji, material-icons
 
