@@ -6,7 +6,7 @@ pacman -Syu &
 pacman -S tar zsh steam vim neovim vlc network-manager-applet obs-studio syncthing rawtherapee gimp discord blanket lutris ffmpeg mpv aria2 tlp &
 
 # BSPWM
-pacman -S bspwm feh polybar picom sxhkd bc python-pywal dmenu scrot brightnessctl rofi sddm &
+pacman -S feh polybar picom bc python-pywal dmenu scrot brightnessctl rofi & # bspwm sddm sxhkd
 
 # Terminal Stuff
 pacman -S mpd wget p7zip alacritty bat gdu lf btop neofetch git starship zellij asciiquarium cmatrix cowsay lolcat figlet zoxide fzf &
