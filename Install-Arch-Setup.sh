@@ -20,6 +20,8 @@ pacman -S wireshark-cli okteta dhex nmap john &
 # Fonts
 pacman -S noto-fonts noto-fonts-cjk noto-fonts-emoji ttf-fira-code texlive-langkorean ttf-fantasque-nerd ttf-font-awesome
 
+bash Dotfiles-Install.sh
+
 # Failed Fonts: hachimarupop, terminus-nerdfont, siji, material-icons
 
 # Failed Packages: Anki, Floorp, Logseq, Mangal, musikcube, spotdl, libresprite, libreoffice, ascii-image-converter, cbonsai, bsp-layout, networkmanager_dmenu, betterlockscreen, gobuster, wordlists
