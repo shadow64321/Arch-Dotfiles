@@ -18,7 +18,7 @@ pacman -S gcc python cmake make &
 pacman -S wireshark-cli okteta dhex nmap john &
 
 # Fonts
-pacman -S noto-fonts noto-fonts-cjk noto-fonts-emoji ttf-fira-code texlive-langkorean ttf-fantasque-nerd ttf-font-awesome
+pacman -S noto-fonts noto-fonts-cjk noto-fonts-emoji ttf-fira-code texlive-langkorean ttf-fantasque-nerd ttf-font-awesome &
 
 bash Dotfiles-Install.sh
 
