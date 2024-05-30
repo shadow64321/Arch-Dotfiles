@@ -15,7 +15,7 @@ super + Escape
 
 
 # Lockscreen
-super + shift + q
+super + shift + p
   betterlockscreen -l dimblur
 
 
@@ -48,14 +48,14 @@ super + shift + u
 
 # Rofi
 super + @space
-  bash ~/.config/polybar/scripts/launcher.sh
+  bash ~/.config/polybar/forest/scripts/launcher.sh
   # rofi -show drun
 
 super + shift + @space
   rofi -show window
 
-super + shift + p
-  bash ~/.config/polybar/scripts/powermenu.sh
+super + shift + q
+  bash ~/.config/polybar/forest/scripts/powermenu.sh
 
 
 # Switch between tiled and monocle layout
