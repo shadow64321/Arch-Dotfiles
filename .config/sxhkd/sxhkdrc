@@ -24,30 +24,27 @@ super + r
   bash ~/.config/bspwm/set-Theme.sh
 
 
-# Set Fav Themes
+# Set Fav Themes - Floating Bar
 super + shift + j
-  feh --bg-fill ~/.config/hypr/Wallpapers/13.jpg && bash ~/.config/polybar/scripts/pywal.sh ~/.config/hypr/Wallpapers/13.jpg
+  feh --bg-fill ~/.config/hypr/Wallpapers/13.jpg && bash ~/.config/polybar/Floating-Bar/scripts/pywal.sh ~/.config/hypr/Wallpapers/13.jpg
 
 super + shift + k
-  feh --bg-fill ~/.config/hypr/Wallpapers/26.jpg && bash ~/.config/polybar/scripts/pywal.sh ~/.config/hypr/Wallpapers/26.jpg
+  feh --bg-fill ~/.config/hypr/Wallpapers/26.jpg && bash ~/.config/polybar/Floating-Bar/scripts/pywal.sh ~/.config/hypr/Wallpapers/26.jpg
 
 super + shift + h
-  feh --bg-fill ~/.config/hypr/Wallpapers/40.jpg && bash ~/.config/polybar/scripts/pywal.sh ~/.config/hypr/Wallpapers/40.jpg
+  feh --bg-fill ~/.config/hypr/Wallpapers/40.jpg && bash ~/.config/polybar/Floating-Bar/scripts/pywal.sh ~/.config/hypr/Wallpapers/40.jpg
  
 super + shift + l
-  feh --bg-fill ~/.config/hypr/Wallpapers/9.jpg && bash ~/.config/polybar/scripts/pywal.sh ~/.config/hypr/Wallpapers/9.jpg
+  feh --bg-fill ~/.config/hypr/Wallpapers/9.jpg && bash ~/.config/polybar/Floating-Bar/scripts/pywal.sh ~/.config/hypr/Wallpapers/9.jpg
 
 super + shift + i
-  feh --bg-fill ~/.config/hypr/Wallpapers/57.png && bash ~/.config/polybar/scripts/pywal.sh ~/.config/hypr/Wallpapers/57.png
+  feh --bg-fill ~/.config/hypr/Wallpapers/57.png && bash ~/.config/polybar/Floating-Bar/scripts/pywal.sh ~/.config/hypr/Wallpapers/57.png
 
 super + shift + o
-  feh --bg-fill ~/.config/hypr/Wallpapers/49.jpg && bash ~/.config/polybar/scripts/pywal.sh ~/.config/hypr/Wallpapers/49.jpg
+  feh --bg-fill ~/.config/hypr/Wallpapers/49.jpg && bash ~/.config/polybar/Floating-Bar/scripts/pywal.sh ~/.config/hypr/Wallpapers/49.jpg
 
 super + shift + u
-  feh --bg-fill ~/.config/hypr/Wallpapers/59.png && bash ~/.config/polybar/scripts/pywal.sh ~/.config/hypr/Wallpapers/59.png
-
-super + shift + y
-  feh --bg-fill ~/.config/hypr/Wallpapers/'Alex Terrible'.jpg && bash ~/.config/polybar/scripts/pywal.sh ~/.config/hypr/Wallpapers/'Alex Terrible'.jpg
+  feh --bg-fill ~/.config/hypr/Wallpapers/59.png && bash ~/.config/polybar/Floating-Bar/scripts/pywal.sh ~/.config/hypr/Wallpapers/59.png
 
 # Rofi
 super + @space

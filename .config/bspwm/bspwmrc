@@ -33,5 +33,5 @@ bspc rule -a Vlc state=floating follow=on &
 
 syncthing &
 
-sleep 2
-polybar
+sleep 1
+bash ~/.config/polybar/forest/launch.sh
