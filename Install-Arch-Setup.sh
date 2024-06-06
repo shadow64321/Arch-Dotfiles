@@ -3,7 +3,7 @@ su root &
 pacman -Syu &
 
 # General Packages
-pacman -S tar zsh steam vim neovim vlc network-manager-applet obs-studio syncthing rawtherapee gimp discord blanket lutris ffmpeg mpv aria2 tlp &
+pacman -S tar zsh steam vim networkmanager obs-studio syncthing rawtherapee gimp discord blanket lutris ffmpeg mpv aria2 tlp &
 
 # BSPWM
 pacman -S feh polybar picom bc python-pywal dmenu scrot brightnessctl rofi dunst & # bspwm sddm sxhkd
