@@ -1,0 +1,250 @@
+window:
+  padding:
+    x: 5
+    y: 5
+  class:
+    instance: Alacritty
+    general: Alacritty
+  opacity: 0.7
+
+scrolling:
+  history: 10000
+  multiplier: 3
+
+font:
+  normal:
+    family: FiraCode Nerd Font
+    style: Medium
+  bold:
+    family: FiraCode Nerd Font
+    style: Bold
+  italic:
+    family: FiraCode Nerd Font
+    style: MediumItalic
+  bold_italic:
+    family: FiraCode Nerd Font
+    style: BoldItalic
+  size: 11
+draw_bold_text_with_bright_colors: true
+
+# Commented out so that pywal2alacrittyyml.sh can set colors
+#colors:
+#    primary:
+#        background: "#1E1E2E" # base
+#        foreground: "#CDD6F4" # text
+#        # Bright and dim foreground colors
+#        dim_foreground: "#CDD6F4" # text
+#        bright_foreground: "#CDD6F4" # text
+#
+#    # Cursor colors
+#    cursor:
+#        text: "#1E1E2E" # base
+#        cursor: "#F5E0DC" # rosewater
+#    vi_mode_cursor:
+#        text: "#1E1E2E" # base
+#        cursor: "#B4BEFE" # lavender
+#
+#    # Search colors
+#    search:
+#        matches:
+#            foreground: "#1E1E2E" # base
+#            background: "#A6ADC8" # subtext0
+#        focused_match:
+#            foreground: "#1E1E2E" # base
+#            background: "#A6E3A1" # green
+#        footer_bar:
+#            foreground: "#1E1E2E" # base
+#            background: "#A6ADC8" # subtext0
+#
+#    # Keyboard regex hints
+#    hints:
+#        start:
+#            foreground: "#1E1E2E" # base
+#            background: "#F9E2AF" # yellow
+#        end:
+#            foreground: "#1E1E2E" # base
+#            background: "#A6ADC8" # subtext0
+#
+#    # Selection colors
+#    selection:
+#        text: "#1E1E2E" # base
+#        background: "#F5E0DC" # rosewater
+#
+#    # Normal colors
+#    normal:
+#        black: "#45475A" # surface1
+#        red: "#F38BA8" # red
+#        green: "#A6E3A1" # green
+#        yellow: "#F9E2AF" # yellow
+#        blue: "#89B4FA" # blue
+#        magenta: "#F5C2E7" # pink
+#        cyan: "#94E2D5" # teal
+#        white: "#BAC2DE" # subtext1
+#
+#    # Bright colors
+#    bright:
+#        black: "#585B70" # surface2
+#        red: "#F38BA8" # red
+#        green: "#A6E3A1" # green
+#        yellow: "#F9E2AF" # yellow
+#        blue: "#89B4FA" # blue
+#        magenta: "#F5C2E7" # pink
+#        cyan: "#94E2D5" # teal
+#        white: "#A6ADC8" # subtext0
+#
+#    # Dim colors
+#    dim:
+#        black: "#45475A" # surface1
+#        red: "#F38BA8" # red
+#        green: "#A6E3A1" # green
+#        yellow: "#F9E2AF" # yellow
+#        blue: "#89B4FA" # blue
+#        magenta: "#F5C2E7" # pink
+#        cyan: "#94E2D5" # teal
+#        white: "#BAC2DE" # subtext1
+#
+#    indexed_colors:
+#        - { index: 16, color: "#FAB387" }
+#        - { index: 17, color: "#F5E0DC" }
+#
+key_bindings:
+  - { key: Return, mods: Super|Shift, action: SpawnNewInstance }
+
+# BEGIN ACE
+window:
+  padding:
+    x: 5
+    y: 5
+  class:
+    instance: Alacritty
+    general: Alacritty
+  opacity: 0.7
+
+scrolling:
+  history: 10000
+  multiplier: 3
+
+font:
+  normal:
+    family: FiraCode Nerd Font
+    style: Medium
+  bold:
+    family: FiraCode Nerd Font
+    style: Bold
+  italic:
+    family: FiraCode Nerd Font
+    style: MediumItalic
+  bold_italic:
+    family: FiraCode Nerd Font
+    style: BoldItalic
+  size: 11
+draw_bold_text_with_bright_colors: true
+
+#colors:
+#    primary:
+#        background: "#1E1E2E" # base
+#        foreground: "#CDD6F4" # text
+#        # Bright and dim foreground colors
+#        dim_foreground: "#CDD6F4" # text
+#        bright_foreground: "#CDD6F4" # text
+#
+#    # Cursor colors
+#    cursor:
+#        text: "#1E1E2E" # base
+#        cursor: "#F5E0DC" # rosewater
+#    vi_mode_cursor:
+#        text: "#1E1E2E" # base
+#        cursor: "#B4BEFE" # lavender
+#
+#    # Search colors
+#    search:
+#        matches:
+#            foreground: "#1E1E2E" # base
+#            background: "#A6ADC8" # subtext0
+#        focused_match:
+#            foreground: "#1E1E2E" # base
+#            background: "#A6E3A1" # green
+#        footer_bar:
+#            foreground: "#1E1E2E" # base
+#            background: "#A6ADC8" # subtext0
+#
+#    # Keyboard regex hints
+#    hints:
+#        start:
+#            foreground: "#1E1E2E" # base
+#            background: "#F9E2AF" # yellow
+#        end:
+#            foreground: "#1E1E2E" # base
+#            background: "#A6ADC8" # subtext0
+#
+#    # Selection colors
+#    selection:
+#        text: "#1E1E2E" # base
+#        background: "#F5E0DC" # rosewater
+#
+#    # Normal colors
+#    normal:
+#        black: "#45475A" # surface1
+#        red: "#F38BA8" # red
+#        green: "#A6E3A1" # green
+#        yellow: "#F9E2AF" # yellow
+#        blue: "#89B4FA" # blue
+#        magenta: "#F5C2E7" # pink
+#        cyan: "#94E2D5" # teal
+#        white: "#BAC2DE" # subtext1
+#
+#    # Bright colors
+#    bright:
+#        black: "#585B70" # surface2
+#        red: "#F38BA8" # red
+#        green: "#A6E3A1" # green
+#        yellow: "#F9E2AF" # yellow
+#        blue: "#89B4FA" # blue
+#        magenta: "#F5C2E7" # pink
+#        cyan: "#94E2D5" # teal
+#        white: "#A6ADC8" # subtext0
+#
+#    # Dim colors
+#    dim:
+#        black: "#45475A" # surface1
+#        red: "#F38BA8" # red
+#        green: "#A6E3A1" # green
+#        yellow: "#F9E2AF" # yellow
+#        blue: "#89B4FA" # blue
+#        magenta: "#F5C2E7" # pink
+#        cyan: "#94E2D5" # teal
+#        white: "#BAC2DE" # subtext1
+#
+#    indexed_colors:
+#        - { index: 16, color: "#FAB387" }
+#        - { index: 17, color: "#F5E0DC" }
+#
+#key_bindings:
+#  - { key: Return, mods: Super|Shift, action: SpawnNewInstance }
+
+colors:
+  primary:
+    background: '#0f0e0f'
+    foreground: '#c6c8cb'
+  cursor:
+    text:       '#0f0e0f'
+    cursor:     '#c6c8cb'
+  normal:
+    black:      '#0f0e0f'
+    red:        '#5E626B'
+    green:      '#676B74'
+    yellow:     '#7D807F'
+    blue:       '#767A83'
+    magenta:    '#7D818A'
+    cyan:       '#898D95'
+    white:      '#c6c8cb'
+  bright:
+    black:      '#8a8c8e'
+    red:        '#5E626B'
+    green:      '#676B74'
+    yellow:     '#7D807F'
+    blue:       '#767A83'
+    magenta:    '#7D818A'
+    cyan:       '#898D95'
+    white:      '#c6c8cb'
+# END ACE

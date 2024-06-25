@@ -4,23 +4,32 @@
 # pgrep -x sxhkd > /dev/null || sxhkd &
 sxhkd -c "$HOME/.config/sxhkd/sxhkdrc" &
 bsp-layout set tall &
-pkill picom &
+# pkill picom &
 picom &
 #picom --experimental-backends &
 # polybar &
 # ibus start &
 # fcitx5 &
-# Set Theme
-bash ~/.config/bspwm/set-Theme.sh &
+feh --bg-fill ~/.config/hypr/Wallpapers/'26.jpg' &
+betterlockscreen -u ~/.config/hypr/Wallpapers/'27.jpg' &
+
+# Run notification daemon.
+dunst --config $HOME/.config/dunst/dunstrc &
+
+# Run Picom.
+picom --config $HOME/.config/picom/picom.conf &
+
+# Run mpd if doesn't started.
+[ -n "$(pidof mpd)" ] || mpd &
 
 # Monitor
-bspc monitor -d 1 2 3 4 5 6 7 8 9 &
+bspc monitor -d 1 2 3 4 5 6 &
 
 # Window Information
 bspc config border_width 2 &
 bspc config window_gap 12 &
 
-bspc config split_ratio 0.5 &
+bspc config split_ratio 0.6 &
 bspc config borderless_monocle true &
 bspc config gapless_monocle true &
 
@@ -31,7 +40,7 @@ bspc config pointer_follows_monitor true &
 # Rules
 bspc rule -a Vlc state=floating follow=on &
 
-syncthing &
+syncthing
 
 sleep 1
 bash ~/.config/polybar/forest/launch.sh

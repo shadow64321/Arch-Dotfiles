@@ -1,4 +1,4 @@
-#!/usr/bin/env bash
+#!/bin/sh
 
 ## Author  : Aditya Shakya
 ## Mail    : adi1090x@gmail.com
