@@ -25,14 +25,11 @@ super + r
 
 # Rofi
 super + @space
-  bash ~/.config/polybar/forest/scripts/launcher.sh
+  bash ~/.config/rofi/launchers/type-6/launcher.sh
   # rofi -show drun
 
-super + shift + @space
-  rofi -show window
-
 super + shift + q
-  bash ~/.config/polybar/forest/scripts/powermenu.sh
+  bash ~/.config/rofi/powermenu/type-4/powermenu.sh
 
 
 # Switch between tiled and monocle layout

@@ -10,8 +10,8 @@ picom &
 # polybar &
 # ibus start &
 # fcitx5 &
-feh --bg-fill ~/.config/hypr/Wallpapers/'26.jpg' &
-betterlockscreen -u ~/.config/hypr/Wallpapers/'27.jpg' &
+feh --bg-fill ~/Pictures/Wallpapers/'16.jpg' &
+betterlockscreen -u ~/Pictures/Wallpapers/'12.jpg' &
 
 # Run notification daemon.
 dunst --config $HOME/.config/dunst/dunstrc &
@@ -40,7 +40,7 @@ bspc config pointer_follows_monitor true &
 # Rules
 bspc rule -a Vlc state=floating follow=on &
 
-syncthing
+syncthing &
 
-sleep 1
+sleep 1 &
 bash ~/.config/polybar/forest/launch.sh
