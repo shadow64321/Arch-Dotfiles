@@ -44,6 +44,9 @@ zinit cdreplay -q
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
 
+# oh-my-posh
+# eval "$(oh-my-posh init zsh --config $HOME/.config/ohmyposh/zen.toml)"
+
 # Keybinds
 bindkey '^p' history-search-backward
 bindkey '^n' history-search-forward
@@ -85,6 +88,7 @@ alias rename='mv'
 alias rebsp='bash ~/.config/bspwm/bspwmrc'
 alias binds='bat ~/.config/sxhkd/sxhkdrc'
 alias img='feh'
+alias extract='tar -xvf'
 
 # Shell intergrations
 # eval "$(fzf -zsh)" # invoke: ^r
