@@ -73,6 +73,7 @@ zstyle ':fzf-tab:complete:__zoxide_z:*' fzf-preview 'ls --color $realpath'
 
 # Aliases
 alias ls='ls --color'
+alias cat='cat | lolcat'
 alias music='musikcube'
 alias fishy='asciiquarium'
 alias rfishy='asciiquarium | lolcat'
