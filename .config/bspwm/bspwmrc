@@ -10,7 +10,7 @@ picom &
 # polybar &
 # ibus start &
 # fcitx5 &
-feh --bg-fill ~/Pictures/Wallpapers/'16.jpg' &
+feh --bg-fill ~/Pictures/Wallpapers/'49.jpg' &
 betterlockscreen -u ~/Pictures/Wallpapers/'12.jpg' &
 
 # Run notification daemon.
