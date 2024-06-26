@@ -36,6 +36,9 @@ bspc config gapless_monocle true &
 bspc config pointer_follows_monitor true &
 # bspc config focus_follows_pointer true &
 
+bspc config active_border_color \#4FA4ED &
+bspc config normal_border_color \#080E32 &
+
 # $HOME/.fehbg &
 # Rules
 bspc rule -a Vlc state=floating follow=on &
