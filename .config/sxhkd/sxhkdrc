@@ -4,6 +4,7 @@
 #   ___) /  \|  _  | . \| |_| |  _ <| |___
 #  |____/_/\_\_| |_|_|\_\____/|_| \_\\____|
 
+
 # Terminal
 super + Return
   alacritty
@@ -24,9 +25,15 @@ super + r
   bash ~/.config/bspwm/set-Theme.sh
 
 # Rofi
-super + @space
+super+ shift + @space
   bash ~/.config/rofi/launchers/type-6/launcher.sh
   # rofi -show drun
+
+super + @space
+  bash ~/.config/rofi/launchers/type-3/launcher.sh
+
+ctrl + f
+  bash ~/.config/rofi/launchers/type-6/File-Search.sh
 
 super + shift + q
   bash ~/.config/rofi/powermenu/type-4/powermenu.sh
@@ -89,7 +96,7 @@ XF86AudioLowerVolume
 XF86AudioLowerVolume
   amixer set Master 5%-
 XF86AudioMute
-  amizer set Master {mute, unmute}
+  amixer set Master {mute, unmute}
 
 
 # Screenshot

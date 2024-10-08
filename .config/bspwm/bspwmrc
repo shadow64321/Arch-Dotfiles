@@ -11,7 +11,7 @@ picom &
 # ibus start &
 # fcitx5 &
 feh --bg-fill ~/Pictures/Wallpapers/'49.jpg' &
-betterlockscreen -u ~/Pictures/Wallpapers/'12.jpg' &
+betterlockscreen -u ~/Pictures/Wallpapers/'3.jpg' &
 
 # Run notification daemon.
 dunst --config $HOME/.config/dunst/dunstrc &
